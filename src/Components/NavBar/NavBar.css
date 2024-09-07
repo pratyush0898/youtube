@@ -1,0 +1,47 @@
+.nav-container {
+    max-height: 58px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.97rem;
+}
+
+.nav-container .nav-search-container .nav-search-text-container {
+    background: #222;
+    padding: 2px;
+    border-radius: 99px;
+    width: 522px;
+}
+
+.nav-container .nav-search-container .nav-search-text-container .nav-search-text-input-wapper input {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background: #121212;
+    border-top-left-radius: 99px;
+    border-bottom-left-radius: 99px;
+    width: 445px;
+    color: #f0f8ff;
+    font-size: 18px;
+}
+
+.nav-container .nav-search-container .nav-search-text-container {
+    display: flex;
+}
+
+.nav-container .nav-search-container .nav-search-text-icon-wapper #nav-search-text-icon-img {
+    height: 33px;
+    width: 100%;
+    margin-left: 50%;
+}
+
+.nav-container .nav-logo-wapper #nav-logo-img {
+    height: 33px;
+    width: 100%;
+}
+
+.nav-container .nav-user-logo-wapper #nav-user-logo-img {
+    height: 44px;
+    border-radius: 50%;
+}

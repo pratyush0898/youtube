@@ -1,0 +1,49 @@
+.feed-card {
+    height: 299px;
+    overflow: scroll;
+    width: 359px;
+    font-family: "Arial";
+    padding: 0.274rem;
+    cursor: pointer;
+    border-radius: 0.79rem;
+    position: relative;
+    gap: 0.7rem;
+}
+
+.feed-card .fc-info {
+    margin-left: 7px;
+    display: flex;
+    flex-direction: row;
+}
+
+.feed-card .fc-thumbnail-wapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 9px;
+    margin-top: 4px;
+}
+
+.feed-card .fc-thumbnail-wapper img {
+    width: 349px;
+    border-radius: 0.793rem;
+}
+
+.feed-card .fc-info .fc-logo-wapper img {
+    height: 24px;
+    width: auto;
+    margin: 2px 13px 0 6px;
+}
+
+.feed-card .fc-info .fc-text .fc-head-wapper {
+    color: #e9f1f1;
+    font-family: var(--primary-font);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.feed-card .fc-info .fc-text .fc-text-wapper {
+    color: #a1a1a1;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: var(--secondry-font);
+}

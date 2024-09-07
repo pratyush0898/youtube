@@ -1,0 +1,52 @@
+main, #main, .main {
+    display: flex;
+}
+
+.youtube-feed {
+    height: calc(95.9dvh - 56px);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 24px;
+    padding: 0.572rem;
+    overflow: scroll;
+}
+
+.sidebar {
+  width: 499px;
+  height: 100vh;
+  background-color: transparent;
+  padding-top: 16px;
+  overflow: scroll;
+  font-family: var(--secondary-font);
+}
+
+.shortcut-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.side-link {
+  display: flex;
+  align-items: center;
+  margin: 3px 9px;
+  padding: 12px 16px;
+  cursor: pointer;
+  border-radius: 9px;
+  transition: background-color 0.3s;
+}
+
+.side-link img {
+  width: 24px;
+  height: 24px;
+}
+
+.side-link p {
+  margin: 0;
+  font-size: 14px;
+  color: #fff;
+  margin-left: 24px;
+}
+
+.side-link.active, .side-link:hover {
+  background-color: #272727;
+}
